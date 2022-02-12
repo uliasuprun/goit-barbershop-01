@@ -1,0 +1,319 @@
+:root {
+    --main-text-color: #303030;
+    --secondary-text-color: #555555;
+    --main-light-color: #ffffff;
+    --secondary-light-color: #9da4bd;
+    --accent-ccolor: #ff6c00;
+    --box-background-color: #f7f7f7;
+}
+body {
+    font-family: OpenSans, sans-serif;
+    font-style: normal;
+    color: var(--main-text-color);
+    background-color: var(--main-light-color);
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+    border: 1px solid var(--accent-ccolor);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.link {
+    text-decoration: none;
+}
+.ul-style {
+    list-style: none;
+    padding-left: 0;    
+}
+.section-menu {
+    background-color: var(--main-text-color);
+    display: flex;
+}
+.nav-menu {
+    padding: 50px 20px 0 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--main-light-color);
+}
+.nav-menu:hover,
+.nav-menu:focus {
+    color: var(--accent-ccolor);
+}
+.nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--main-light-color);
+    background-color: var(--main-text-color);
+}
+.tel-header {
+
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+}
+.tel-header:hover,
+.tel-header:focus {
+    color: var(--accent-ccolor);
+}
+
+
+/*-------*/
+.subtitle {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.section-title {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+.description-middle {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+.description-light {
+    width: 500px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.05em;
+    color: #555555;
+}
+
+.section-prices {
+    width: 1280px;
+    background: #111319;
+    text-align: center;
+}
+.secondary-subtitle {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+.secondary-title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--main-light-color);
+}
+.secondary-description {
+    font-size: 18px;
+line-height: 1.67;
+letter-spacing: 0.02em;
+color: var(--secondary-light-color);
+}
+.dark-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+    border: 1px solid var(--accent-ccolor);
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.dark-btn:hover,
+.dark-btn:focus {
+    background-color: var(--accent-ccolor);
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 1170px;
+    padding: 130px 15px;
+    margin: 0 auto;
+}
+.indent {
+    display: block;
+}
+/* СЕКЦИЯ О НАС
+Лучший Барбершоп твоего города */
+
+.about-img {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.about-img .item:not(last-child) {
+    margin-right: 30px;
+}
+.about-container {
+    display: flex;
+}
+.about-text {
+    margin-left: 64px;
+}
+.light-btn {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    border: 1px solid var(--accent-ccolor);
+    width: 160px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: transparent;
+}
+.light-btn:hover,
+.light-btn:focus {
+    color: var(--main-light-color);
+    background-color: var(--accent-ccolor);
+}
+
+/* Услуги и цены
+Проведи время в компании 
+лучших мастеров */
+
+.prices-container {
+    display: flex;
+}
+.secondary-subtitle-prc {
+    text-align: start;
+}
+.secondary-title-prc {
+    margin-bottom: 44px;
+    text-align: start;
+}
+.price-list-first .ul-style {
+    width: 585px;
+    background: linear-gradient(180deg, #171A24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
+.price-list-second .ul-style{
+    width: 585px;
+    background: linear-gradient(180deg, #090B13 0%, rgba(9, 11, 19, 0.2) 100%);
+}
+.ul-style .item-prc {
+    display: flex;
+    justify-content: space-between;
+}
+.item-prc {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.item-prc:first-child {
+    padding-top: 30px;
+}
+.item-prc:nth-child(-n + 3) {
+    margin-bottom: 20px;;
+  }
+.item-prc:last-child {
+    padding-bottom: 30px;
+}
+.btn-prc {
+    margin-top: 50px;
+}
+
+
+
+
+
+/*СЕКЦИЯ НАШИ ОСОБЕННОСТИ
+Почему приходят именно к нам?*/
+.features-box {
+    width: 130px;
+    height: 93px;
+    padding: 20px;
+    background: var(--box-background-color);
+}
+.features-qty {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.features-item {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-align: center;
+}
+/*СЕКЦИЯ НАШИ МАСТЕРА*/
+.section-masters {
+    background-color: var(--box-background-color);
+}
+.master-items {
+    display: flex;
+}
+.master-title {
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+.master-description {
+    font-size: 14px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--accent-ccolor);
+}
+
+/*PORTFOLIO SECTION*/
+.display-title {
+    display: none;
+}
+.portfolio-items {
+    display: flex;
+}
+.portfolio-img {
+    padding: 0 15px 0 15px;
+}
+/*SECTION CONTACTS*/
+.section-contacts {
+    background-color: #191c26;
+    display: flex;
+}
+.section-contacts-one {
+    width: 625px;
+}
+.section-contacts-two {
+    width: 625px;
+}
+/*-------*/
+.address-style {
+    font-style: normal;
+}
