@@ -5,6 +5,7 @@
     --secondary-light-color: #9da4bd;
     --accent-ccolor: #ff6c00;
     --box-background-color: #f7f7f7;
+    --prices-bcg-color: #111319;
 }
 body {
     font-family: OpenSans, sans-serif;
@@ -101,13 +102,15 @@ p {
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.05em;
-    color: #555555;
+    color: var(--secondary-text-color);
 }
 
 .section-prices {
     width: 1280px;
-    background: #111319;
     text-align: center;
+    background: url(/images/prices-bcg.png);
+    background-color: var(--prices-bcg-color);
+    background-size: cover;
 }
 .secondary-subtitle {
     margin-bottom: 20px;
@@ -160,7 +163,7 @@ color: var(--secondary-light-color);
 
 
 .container {
-    width: 1170px;
+    width: 1200px;
     padding: 130px 15px;
     margin: 0 auto;
 }
@@ -275,21 +278,50 @@ color: var(--secondary-light-color);
 .section-masters {
     background-color: var(--box-background-color);
 }
-.master-items {
+.masters-title {
+    margin-bottom: 44px;
+}
+.master-list {
     display: flex;
+    margin-bottom: 0;
+}
+.master-item {
+    width: 370px;
+    margin-bottom: 0;
+}
+.master-item:not(last-child) {
+    margin-right: 30px;
+}
+.master-img {
+    margin-bottom: 30px;
 }
 .master-title {
+    margin-bottom: 8px; 
     font-size: 18px;
     line-height: 1.39;
     text-align: center;
     letter-spacing: 0.02em;
 }
 .master-description {
+    margin-bottom: 30px;
     font-size: 14px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--accent-ccolor);
+}
+.master-social {
+    display: flex;
+    justify-content: center;
+}
+.round {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--main-light-color);
+}
+.round:not(last-child) {
+    margin-right: 10px;
 }
 
 /*PORTFOLIO SECTION*/
