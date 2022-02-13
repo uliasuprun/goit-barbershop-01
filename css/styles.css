@@ -6,6 +6,7 @@
     --accent-ccolor: #ff6c00;
     --box-background-color: #f7f7f7;
     --prices-bcg-color: #111319;
+    --contacts-bcg-color: #191c26;
 }
 body {
     font-family: OpenSans, sans-serif;
@@ -75,9 +76,15 @@ p {
 .tel-header:focus {
     color: var(--accent-ccolor);
 }
-
-
-/*-------*/
+/*-------*
+*-------*/
+.container {
+    width: 1200px;
+    padding: 130px 15px;
+    margin: 0 auto;
+}
+/*-------*
+*-------*/
 .subtitle {
     margin-bottom: 20px;
     font-weight: 600;
@@ -112,7 +119,7 @@ p {
 .section-prices {
     width: 1280px;
     text-align: center;
-    background: url(/images/prices-bcg.png);
+    background-image: url(/images/prices-bcg.png);
     background-color: var(--prices-bcg-color);
     background-size: cover;
 }
@@ -157,26 +164,10 @@ color: var(--secondary-light-color);
     background-color: var(--accent-ccolor);
 }
 
-
-
-
-
-
-
-
-
-
-.container {
-    width: 1200px;
-    padding: 130px 15px;
-    margin: 0 auto;
-}
+/* ABOUT US SECTION*/
 .indent {
     display: block;
 }
-/* СЕКЦИЯ О НАС
-Лучший Барбершоп твоего города */
-
 .about-img {
     display: flex;
     margin-top: 0;
@@ -210,9 +201,7 @@ color: var(--secondary-light-color);
     background-color: var(--accent-ccolor);
 }
 
-/* Услуги и цены
-Проведи время в компании 
-лучших мастеров */
+/*SERVICES AND PRICES SECTION*/
 
 .prices-container {
     display: flex;
@@ -254,11 +243,7 @@ color: var(--secondary-light-color);
 }
 
 
-
-
-
-/*СЕКЦИЯ НАШИ ОСОБЕННОСТИ
-Почему приходят именно к нам?*/
+/*FEATURES SECTION*/
 .features-box {
     width: 130px;
     height: 93px;
@@ -278,7 +263,7 @@ color: var(--secondary-light-color);
     line-height: 1.36;
     text-align: center;
 }
-/*СЕКЦИЯ НАШИ МАСТЕРА*/
+/*MASTERS SECTION*/
 .section-masters {
     background-color: var(--box-background-color);
 }
@@ -351,23 +336,60 @@ color: var(--secondary-light-color);
 .portfolio-img:not(last-child) {
     margin-right: 30px;
 }
-/*SECTION CONTACTS*/
+/*CONTACTS SECTION*/
 .section-contacts {
-    background-color: #191c26;
+    background-color: var(--contacts-bcg-color);
+}
+.contacts-container {
+    width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
     display: flex;
 }
 .section-contacts-one {
     width: 625px;
+    padding-top: 130px;
+    padding-left: 55px;
+    padding-bottom: 130px;
+    
 }
 .section-contacts-two {
+    background-image: url(/images/contacts-bg.png);
+    background-size: cover;
     width: 625px;
+padding-top: 130px;
+padding-left: 100px;
+padding-bottom: 130px;
 }
-/*-------*/
+
+.contacts-text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--secondary-light-color);
+}
+.contacts-subtext {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--main-light-color);
+}
+.section-contacts-two .secondary-title {
+    margin-bottom: 40px;
+}
+.ul-style .contacts-text:not(last-child) {
+    margin-bottom: 20px;
+}
 .address-style {
     font-style: normal;
 }
 
-/* content-footer */
+/*FOOTER SECTION*/
 
 
 
