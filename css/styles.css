@@ -325,14 +325,26 @@ color: var(--secondary-light-color);
 }
 
 /*PORTFOLIO SECTION*/
-.display-title {
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.portfolio-sbt {
+    margin-bottom: 44px;
 }
 .portfolio-items {
     display: flex;
 }
-.portfolio-img {
-    padding: 0 15px 0 15px;
+.portfolio-img:not(last-child) {
+    margin-right: 30px;
 }
 /*SECTION CONTACTS*/
 .section-contacts {
