@@ -197,7 +197,7 @@ img {
 
 .section-prices {
     text-align: center;
-    background-image: url(./images/prices-bcg.png);
+    background-image: url(https://uliasuprun.github.io/goit-barbershop-01/images/prices-bcg.png);
     background-color: var(--prices-bcg-color);
     background-size: cover;
 }
