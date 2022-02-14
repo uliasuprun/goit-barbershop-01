@@ -128,7 +128,7 @@ img {
 } */
 .hero-section {
     width: 1073px;
-    background-image: url(/images/main-slider.jpeg);
+    background-image: url(./images/main-slider.jpeg);
     background-size: cover;
     padding-bottom: 206px;
     padding-top: 272px;
@@ -197,7 +197,7 @@ img {
 
 .section-prices {
     text-align: center;
-    background-image: url(/images/prices-bcg.png);
+    background-image: url(./images/prices-bcg.png);
     background-color: var(--prices-bcg-color);
     background-size: cover;
 }
@@ -458,7 +458,7 @@ color: var(--secondary-light-color);
     
 }
 .section-contacts-two {
-    background-image: url(/images/contacts-bg.png);
+    background-image: url(./images/contacts-bg.png);
     background-size: cover;
     width: 625px;
 padding-top: 130px;
