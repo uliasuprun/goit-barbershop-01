@@ -203,7 +203,7 @@ img {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: --;
+  color: var(--secondary-subtitle-color);
 }
 .secondary-title {
   font-weight: bold;
