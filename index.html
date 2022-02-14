@@ -16,35 +16,41 @@
 </head>
 <body>
     <header class="header">
+        <div class="header-container">
         <nav class="nav-section">
-        <a class="link" href="/">
+        <a class="logo link" href="/">
             <img src="./images/logo.svg" alt="лого сайта">
         </a>
             <ul class="ul-style section-menu">
-                <li><a class="link nav-menu" href="#about">О нас</a></li>
-                <li><a class="link nav-menu" href="#prices">Услуги и цены</a></li>
-                <li><a class="link nav-menu" href="#masters">Мастера</a></li>
-                <li><a class="link nav-menu" href="#contacts">Контакты</a></li>
+                <li class="nav-menu"><a class="link" href="#about">О нас</a></li>
+                <li class="nav-menu"><a class="link" href="#prices">Услуги и цены</a></li>
+                <li class="nav-menu"><a class="link" href="#masters">Мастера</a></li>
+                <li class="nav-menu"><a class="link" href="#contacts">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="ul-style ">
-            <li class=""><a class="link tel-header" href="tel:+380441111111">+38 044 111 11 11</a></li>
-            <li class=""><button class="dark-btn" type="button">онлайн-запись</button></li>
+        <ul class="ul-style link-container">
+            <li class="link-menu"><a class="link tel-header" href="tel:+380441111111">+38 044 111 11 11</a></li>
+            <li class="link-menu"><button class="dark-btn" type="button">онлайн-запись</button></li>
         </ul>
+    </div>
     </header>
     <main>
         <section>
-            <ul class="ul-style">
-                <li><a class="link" href="" target="_blank" rel="noopener norefferer">Instagram</a></li>
-                <li><a class="link" href="" target="_blank" rel="noopener norefferer">Youtube</a></li>
+            <div class="container hero-container">
+            <ul class="ul-style social-hero">
+                <li class="social"><a class="link" href="" target="_blank" rel="noopener norefferer">Instagram</a></li>
+                <li class="social"><a class="link" href="" target="_blank" rel="noopener norefferer">Youtube</a></li>
             </ul>
-            <p lang="en">A hair salon for men in Kyiv</p>
-            <h1 lang="en">BarberShop</h1>
-            <p>Мы эксперты в модных мужских стрижках. <br />
-                Работаем быстро, осторожно и со вкусом.</p>
+            <div class="hero-section">
+            <p class="secondary-subtitle" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title" lang="en">BarberShop</h1>
+            <p class="secondary-description" >Мы эксперты в модных мужских стрижках. <span class="indent">
+                Работаем быстро, осторожно и со вкусом.</span></p>
+            </div>
+            </div>
         </section>
         <section id="about">
-            <div class="container about-container">
+            <div class="container section about-container">
             <ul class="ul-style about-img">
                 <li class="item"><img src="./images/about-img-1.jpeg" alt="барбер бреет шею" width="270" height="445"></li>
                 <li class="item"><img src="./images/about-img-2.jpeg" alt="барбер бреет усы"  width="270" height="445"></li>
@@ -62,7 +68,7 @@
     </div>
         </section>
         <section id="prices" class="section-prices">
-            <div class="container">
+            <div class="container section">
             <p class="secondary-subtitle secondary-subtitle-prc">Проведи время в компании лучших мастеров</p>
             <h2 class="secondary-title secondary-title-prc">Услуги и цены</h2>
             <div class="prices-container">
@@ -112,30 +118,36 @@
         </div>
         </section>
         <section class="features">
-            <ul class="ul-style">
-                <li class="features-box">
-                    <span class="features-qty">600</span>
-                    <p class="features-item">Довольных клиентов в день</p>
-                </li>
-                <li class="features-box">
-                    <span class="features-qty">50</span>
-                    <p class="features-item">Наград за отличный сервис</p>
-                </li>
-                <li class="features-box">
-                    <span class="features-qty">20</span>
-                    <p class="features-item">Лучших мастеров Киева</p>
-                </li>                
-                <li class="features-box">
-                    <span class="features-qty">100</span>
-                    <p class="features-item">Подарков постоянным клиентам</p>
-                </li>
-            </ul>
-            <p class="subtitle">старая традиционная школа</p>
-            <h2 class="section-title">Почему приходят именно к нам?</h2>
-            <p class="description-middle">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+            <div class="container section">
+                <div class="features-list">
+                    <ul class="ul-style">
+                        <li class="features-box">
+                            <span class="features-qty">600</span>
+                            <p class="features-item">Довольных клиентов в день</p>
+                        </li>
+                        <li class="features-box">
+                            <span class="features-qty">50</span>
+                            <p class="features-item">Наград за отличный сервис</p>
+                        </li>
+                        <li class="features-box">
+                            <span class="features-qty">20</span>
+                            <p class="features-item">Лучших мастеров Киева</p>
+                        </li>                
+                        <li class="features-box">
+                            <span class="features-qty">100</span>
+                            <p class="features-item">Подарков постоянным клиентам</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="features-text">
+                    <p class="subtitle">старая традиционная школа</p>
+                    <h2 class="section-title">Почему приходят именно к нам?</h2>
+                    <p class="description-middle">О нас говорят только хорошее. Но лучше 1 раз увидеть и прочувствовать, чем 10 раз прочитать.</p>
+                </div>
+            </div>
         </section>
         <section class="section-masters" id="masters">
-            <div class="container">
+            <div class="container section">
             <p class="subtitle">для настоящих ценителей атмосферы</p>
             <h2 class="section-title masters-title">Наши мастера</h2>
             <ul class="ul-style master-list">
@@ -177,7 +189,7 @@
         </section>
        
         <section>
-            <div class="container">
+            <div class="container section">
             <p class="subtitle portfolio-sbt">На латинском языке “барба” означает “борода”</p>
             <h2 class="visually-hidden">Портфолио</h2>
             <ul class="ul-style portfolio-items">
@@ -189,7 +201,7 @@
         </div>
         </section>
         <section class="section-contacts">
-        <div class="contacts-container">
+        <div class="container contacts-container">
             <section class="section-contacts-one">
                 <div class="contacts-container-primary">
                 <h2 class="secondary-title">Онлайн-запись</h2>
