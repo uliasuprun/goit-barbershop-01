@@ -3,7 +3,8 @@
   --secondary-text-color: #555555;
   --main-light-color: #ffffff;
   --secondary-light-color: #9da4bd;
-  --accent-ccolor: #ff6c00;
+  --secondary-subtitle-color: rgba(157, 164, 189, 0.6);
+  --accent-color: #ff6c00;
   --box-background-color: #f7f7f7;
   --prices-bcg-color: #111319;
   --contacts-bcg-color: #191c26;
@@ -14,7 +15,6 @@ body {
   color: var(--main-text-color);
   background-color: var(--main-light-color);
   position: relative;
-  border: 1px solid var(--accent-ccolor);
 }
 h1,
 h2,
@@ -98,7 +98,7 @@ img {
 }
 .nav-menu:hover,
 .nav-menu:focus {
-  color: var(--accent-ccolor);
+  color: var(--accent-color);
 }
 .link-menu:not(:last-child) {
   margin-right: 42px;
@@ -114,17 +114,13 @@ img {
 }
 .tel-header:hover,
 .tel-header:focus {
-  color: var(--accent-ccolor);
+  color: var(--accent-color);
 }
 /*-------*
 *-------*/
 .hero-container {
   display: flex;
 }
-/* .social-hero {
-    display: flex;
-    
-} */
 .hero-section {
   width: 1073px;
   background-image: url(https://uliasuprun.github.io/goit-barbershop-01/images/main-slider.jpeg);
@@ -145,7 +141,7 @@ img {
   font-size: 11px;
   line-height: 15px;
   letter-spacing: 0.2em;
-  color: #ff6c00;
+  color: var(--accent-color);
   transform: rotate(-90deg);
 }
 .social {
@@ -160,7 +156,7 @@ img {
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: var(--main-light-color);
   margin-bottom: 20px;
 }
 .subtitle {
@@ -207,7 +203,7 @@ img {
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(157, 164, 189, 0.6);
+  color: --;
 }
 .secondary-title {
   font-weight: bold;
@@ -229,7 +225,7 @@ img {
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--main-light-color);
-  border: 1px solid var(--accent-ccolor);
+  border: 1px solid var(--accent-color);
   min-width: 160px;
   padding: 11px 18px;
   box-sizing: border-box;
@@ -238,7 +234,7 @@ img {
 }
 .dark-btn:hover,
 .dark-btn:focus {
-  background-color: var(--accent-ccolor);
+  background-color: var(--accent-color);
 }
 
 /* ABOUT US SECTION*/
@@ -265,7 +261,7 @@ img {
   line-height: 1.33;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  border: 1px solid var(--accent-ccolor);
+  border: 1px solid var(--accent-color);
   min-width: 160px;
   padding: 11px 18px;
   box-sizing: border-box;
@@ -275,7 +271,7 @@ img {
 .light-btn:hover,
 .light-btn:focus {
   color: var(--main-light-color);
-  background-color: var(--accent-ccolor);
+  background-color: var(--accent-color);
 }
 
 /*SERVICES AND PRICES SECTION*/
@@ -399,7 +395,7 @@ img {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--accent-ccolor);
+  color: var(--accent-color);
 }
 .master-social {
   display: flex;
@@ -518,5 +514,5 @@ img {
 }
 .social-footer .item:hover,
 .social-footer .item:focus {
-  color: var(--accent-ccolor);
+  color: var(--accent-color);
 }
